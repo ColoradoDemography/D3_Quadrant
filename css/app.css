@@ -1,0 +1,42 @@
+.firstdiv input{
+  font-size: 10px;
+  width: 100px;
+  height: 22px;
+}
+
+.firstdiv td{
+  font-size: 12px;
+}
+
+svg{
+  shape-rendering: geometricPrecision; 
+}
+
+td{
+  padding-left: 10px !important;
+  padding-bottom: 3px !important;
+}
+  
+.spacer{
+  padding-top: 20px;
+}
+    
+.spacerbig{
+  padding-top: 40px;
+}
+  
+  #datadiv { 
+    position: absolute;
+    display: block;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+}
+  
+#sidebar {
+    left: 0px;
+}
+
+select{
+  width: 240px;
+}
