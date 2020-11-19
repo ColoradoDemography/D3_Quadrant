@@ -196,14 +196,16 @@ function stylesubmit(){
     var limit='10000';
       
       var sumlev;
+      var state;
 
     var geog=$("#selectgeo").val(); 
       
-      if(geog=='cc'){sumlev="50";}
-      if(geog=='cp'){sumlev="160";}            
+      if(geog=='cc'){sumlev="50"; state="8";}
+      //if(geog=='cp'){sumlev="160";}
+      if(geog=='st'){sumlev="40"; state="";}
 
       
-      var state="8";
+      //var state="8";
       
       var fp;
       
@@ -308,7 +310,7 @@ $('#i_title').val(newsetuparray.title);
       
         //get individual data
         
-      //console.log(results);
+      console.log(results);
       
 
       var tempobj={};
@@ -336,7 +338,9 @@ $('#i_title').val(newsetuparray.title);
         if($('#classify').val()=='mhiq'){newsetuparray.colorschemetype='sequential';}
         if($('#classify').val()=='none'){newsetuparray.colorschemetype='none';}
         
-      createQuadrantChart("svgcontainer", newdataarray, newsetuparray);
+      console.log(newdataarray); console.log(newsetuparray);
+          
+          createQuadrantChart("svgcontainer", newdataarray, newsetuparray);
         
 
   //saveSvgAsPng(document.getElementById("svgel"), "diagram.png");

@@ -1,5 +1,5 @@
 var datatree = {
-    "tree": "acs0913",
+    "tree": "acs1418",
     "data": [
 
         {
@@ -33,7 +33,23 @@ var datatree = {
             "favstyle": "jenks,7,mh2",
             "bg": "yes"
         },
-
+        
+        {
+            "varcode": "ui",
+            "verbose": "Unemployment Continued Claims",
+            "section": "Income",
+            "table": "ui_s_r",
+            "numerator": "fp.ui",
+            "denominator": "1",
+            "type": "regular",
+            "minval": "1",
+            "mininc": "1",
+            "usezeroasnull": "yes",
+            "favtable": "Unemployment Continued Claims",
+            "favstyle": "jenks,7,mh1",
+            "bg": "yes"
+        },
+        
         {
             "varcode": "mfi",
             "verbose": "Median Family Income",
