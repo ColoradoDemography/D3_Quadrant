@@ -72,7 +72,7 @@ var datatree = {
             "section": "Income",
             "table": "uisr",
             "numerator": "fp.uisrret",
-            "denominator": "11",
+            "denominator": "1",
             "type": "percent",
             "minval": "-1",
             "mininc": ".01",
