@@ -191,7 +191,7 @@ function stylesubmit(){
     var yval=$("#selecty").val();
     var zval=$("#selectz").val();  
          
-    var db='acs1418';
+    var db='acs1519';
     var schema='data';
     var limit='10000';
       
