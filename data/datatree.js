@@ -2,53 +2,7 @@ var datatree = {
     "tree": "acs1519",
     "data": [
 
-        {
-            "varcode": "ui",
-            "verbose": "Unemployment Continued Claims",
-            "section": "Income",
-            "table": "uisr",
-            "numerator": "fp.uisruic",
-            "denominator": "1",
-            "type": "regular",
-            "minval": "0",
-            "mininc": ".01",
-            "usezeroasnull": "yes",
-            "favtable": "Unemployment Continued Claims",
-            "favstyle": "jenks,7,mh1",
-            "bg": "yes"
-        },
-               
-        {
-            "varcode": "retail",
-            "verbose": "Retail Sales Change",
-            "section": "Income",
-            "table": "uisr",
-            "numerator": "fp.uisrret",
-            "denominator": "1",
-            "type": "percent",
-            "minval": "-1",
-            "mininc": ".01",
-            "usezeroasnull": "no",
-            "favtable": "Retail Sales Change",
-            "favstyle": "jenks,7,mh6",
-            "bg": "yes"
-        },
-        
-        {
-            "varcode": "snap",
-            "verbose": "SNAP",
-            "section": "Income",
-            "table": "uisr",
-            "numerator": "fp.uisrsnp",
-            "denominator": "1",
-            "type": "number",
-            "minval": "-5000",
-            "mininc": "1",
-            "usezeroasnull": "no",
-            "favtable": "SNAP",
-            "favstyle": "jenks,7,mh7",
-            "bg": "yes"
-        },
+
                         
         {
             "varcode": "mhi",
